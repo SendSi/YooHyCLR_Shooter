@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Space Shooter/Boot.unity
+    guid: 0ddaf6015a4a64f45ac29bdcba7e864f
+  - enabled: 1
+    path: Assets/Space Shooter/GameRes/Scene/scene_home.unity
+    guid: d1f972c576a5e20448964044e23ac974
+  - enabled: 1
+    path: Assets/Space Shooter/GameRes/Scene/scene_battle.unity
+    guid: 367249c8f14b3a041b2a5c9a2b7de7a5
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects: {}
