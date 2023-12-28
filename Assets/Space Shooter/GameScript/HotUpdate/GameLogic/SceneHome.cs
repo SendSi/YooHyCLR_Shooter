@@ -11,7 +11,8 @@ public class SceneHome : MonoBehaviour
 
     private IEnumerator Start()
     {
-        GameManager manager = GameManager.Instance;
+        // GameManager manager = GameManager.Instance;
+        GameManager.Instance.Behaviour = this;
         // 加载登录页面
         _windowHandle = YooAssets.LoadAssetAsync<GameObject>("UIHome");
         yield return _windowHandle;

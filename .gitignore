@@ -50,6 +50,10 @@ ExportedObj/
 Library/
 Logs/
 HybridCLRData/
+exe/
+Bundles/
+hooks/
+yoo/
 
 # Unity3D generated meta files
 *.pidb.meta
